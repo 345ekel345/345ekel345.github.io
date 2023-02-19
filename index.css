@@ -21,3 +21,43 @@ header {
     margin-right: auto;
     width: 50%;
   }
+
+html{
+	background: #191919;
+}
+.isa {
+	background-color: white;
+	width: 50%;
+	float: left;
+
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+	padding-width: 45%;
+	padding-top: 20px;
+  	padding-bottom: 20px;
+
+
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+}
+.dalwa {
+	background-color: #40E0D0;
+	width: 50%;
+	float: left;
+
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+	padding-width: 45%;
+	padding-top: 20px;
+  	padding-bottom: 20px;
+
+
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+}
+.row:after {
+	content: "";
+  	display: table;
+ 	clear: both;
+
+}
